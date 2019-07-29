@@ -1,0 +1,4 @@
+(library
+  (name components)
+  (libraries js_of_ocaml yojson orda)
+  (preprocess (pps ppx_deriving_yojson js_of_ocaml-ppx)))

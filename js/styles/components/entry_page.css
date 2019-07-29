@@ -1,0 +1,13 @@
+.entry_page {
+  display: flex;
+  flex-grow: 1;
+  background-color: white;
+  overflow: auto;
+}
+
+.route_specific_content {
+  display: flex;
+  flex-grow: 1;
+  padding: var(--theme_spacing_md);
+  padding-top: 0;
+}

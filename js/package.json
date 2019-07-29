@@ -1,0 +1,36 @@
+{
+  "name": "wi",
+  "version": "0.1.0",
+  "description": "web interface",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack -w --colors --config webpack.config.js",
+    "build": "webpack --colors --config webpack.config.js"
+  },
+  "keywords": [
+    "js",
+    "css",
+    "html"
+  ],
+  "author": "Kirill Alexander Khalitov",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.1.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "postcss": "^7.0.17",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "style-loader": "^0.23.1",
+    "stylelint-config-recommended": "^2.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6",
+    "stylelint-config-standard": "^18.3.0"
+  },
+  "dependencies": {}
+}
